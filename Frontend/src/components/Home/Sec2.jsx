@@ -2,7 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import "./sec2.css";
-import shopifyLogo from "../assets/shopify.png";
+import shopifyLogo from "./../../assets/shopify.png";
 // import zapierLogo from '../assets/zapier.png';
 // import oktaLogo from '../assets/okta.png';
 // import atlassianLogo from '../assets/atlassian.png';

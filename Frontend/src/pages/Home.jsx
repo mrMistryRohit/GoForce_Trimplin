@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Sec2 from "../components/Sec2";
-import Sec3 from "../components/Sec3";
-import Sec4 from "../components/Sec4";
-import Sec5 from "../components/Sec5";
-import Sec8 from "../components/Sec8";
+import Hero from "../components/Home/Hero";
+import Sec2 from "../components/Home/Sec2";
+import Sec3 from "../components/Home/Sec3";
+import Sec4 from "../components/Home/Sec4";
+import Sec5 from "../components/Home/Sec5";
+import Sec8 from "../components/Home/Sec8";
 
 function Home() {
   return (

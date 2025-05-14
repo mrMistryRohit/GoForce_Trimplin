@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./sec8.css";
-import blog1 from "../assets/Sec8_1.png";
-import blog2 from "../assets/Sec8_2.png";
-import blog3 from "../assets/Sec8_3.png";
+import blog1 from "./../../assets/Sec8_1.png";
+import blog2 from "./../../assets/Sec8_2.png";
+import blog3 from "./../../assets/Sec8_3.png";
 
 const Sec8 = () => {
   const [leftCard, setLeftCard] = useState({

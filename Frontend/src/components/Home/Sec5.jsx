@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./sec5.css";
-import healthcareImg from "../assets/sec5.png"; // Update with your image path
+import healthcareImg from "./../../assets/sec5.png"; // Update with your image path
 
 const industries = [
   "Health care",

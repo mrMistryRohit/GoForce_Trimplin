@@ -1,6 +1,6 @@
 import React from "react";
 import "./sec3.css";
-import bgImg from "../assets/Home_sec3_bg.png";
+import bgImg from "./../../assets/Home_sec3_bg.png";
 
 const features = [
   "AI & Automation Powered Customizations",
