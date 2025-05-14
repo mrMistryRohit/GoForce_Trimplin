@@ -1,0 +1,152 @@
+.sec4-container {
+  padding: 4rem 1.5rem;
+  background-color: #0a0a2e;
+  background-image: linear-gradient(to bottom, #0a0a2e, #0c1035);
+  width: 100%;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sec4-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #b09cff;
+}
+
+.sec4-subheading {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-bottom: 2rem;
+}
+
+.sec4-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sec4-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.sec4-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1rem 0;
+  transition: color 0.3s ease;
+}
+
+.sec4-index {
+  font-weight: bold;
+  color: #8883d8;
+  font-size: 1.3rem;
+}
+
+.sec4-label {
+  font-weight: 600;
+}
+
+.sec4-content {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.sec4-details {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  animation: fadeSlide 0.5s ease;
+  background-color: rgba(12, 12, 40, 0.7);
+}
+
+.sec4-details p {
+  color: #ddd;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.sec4-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sec4-tag {
+  background: #2e2a5f;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #bfbfff;
+}
+
+.sec4-btn {
+  background: none;
+  border: 1px solid #b09cff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #b09cff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.3s ease;
+}
+
+.sec4-btn:hover {
+  background: #b09cff;
+  color: #0a0a23;
+}
+
+.sec4-item.active .sec4-title {
+  color: #b09cff;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .sec4-heading {
+    font-size: 1.5rem;
+  }
+
+  .sec4-title {
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .sec4-details {
+    padding: 1rem;
+  }
+
+  .sec4-tags {
+    justify-content: flex-start;
+  }
+
+  .sec4-tag {
+    font-size: 0.7rem;
+  }
+
+  .sec4-btn {
+    font-size: 0.75rem;
+  }
+}

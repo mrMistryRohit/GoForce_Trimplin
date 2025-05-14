@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  /* height: 10%; */
+  align-items: center;
+  padding: 16px 40px;
+  /* background: transparent; */
+  background-color: #0a0a2e;
+  background-image: linear-gradient(to bottom, #0a0a2e, #0c1035);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  /* position: sticky; */
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  max-width: 10%;
+  gap: 10px;
+}
+
+.navbar-left .brand-name {
+  /* font-style: ; */
+  font-size: 35px;
+  color: #8591ff;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+}
+
+.brand-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #cfcdfc;
+}
+
+.opts {
+  height: 50px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 999px;
+  align-items: center;
+  border: 2px solid #4e4776;
+  border-radius: 20px;
+}
+
+.navbar-center {
+  display: flex;
+  max-width: 60%;
+  gap: 20px;
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.navbar-center li {
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.navbar-center li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.navbar-center .active {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-bottom: 2px solid #c17aff;
+  color: #c17aff;
+}
+
+.navbar-right {
+  max-width: 25%;
+}
+
+.navbar-right .consult-btn {
+  padding: 10px 25px;
+  background: linear-gradient(to right, #6bbffb, #8591ff, #d293f2);
+  color: black;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-right .consult-btn:hover {
+  transform: scale(1.05);
+}

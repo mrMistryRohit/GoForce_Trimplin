@@ -1,0 +1,151 @@
+.sec5 {
+  padding: 5rem 8%;
+  background-color: #f8f9fe;
+  color: #121212;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sec5-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #9e4ef2;
+  margin-bottom: 1rem;
+}
+
+.sec5-subtitles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  text-align: left;
+  margin: 1.5rem auto 2rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.sec5-subtitles .bold {
+  font-weight: 600;
+  color: #1a1a1a;
+  flex: 1;
+  min-width: 300px;
+}
+
+.sec5-subtitles .light {
+  font-weight: 400;
+  color: #444;
+  flex: 1;
+  min-width: 300px;
+}
+
+.sec5-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+.sec5-tab {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #666;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+.sec5-tab.active {
+  background: linear-gradient(to right, #a66df5, #72c6f3);
+  color: #fff;
+  font-weight: 600;
+}
+
+.sec5-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.sec5-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sec5-left img {
+  width: 100%;
+  border-radius: 2rem 0 0 2rem;
+}
+
+.sec5-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sec5-right h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.challenges,
+.solutions {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.challenges li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: #444;
+}
+
+.challenges li span {
+  background: #e6e9fc;
+  color: #4a6ef2;
+  border-radius: 50%;
+  padding: 0.3rem 0.6rem;
+  font-weight: bold;
+}
+
+.solutions li {
+  margin-bottom: 0.6rem;
+  color: #6a6a6a;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.solutions li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #a66df5;
+}
+
+.case-button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  border: 1.5px solid #a66df5;
+  background: transparent;
+  color: #6f3fe9;
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.case-button:hover {
+  background: #a66df5;
+  color: #fff;
+}
